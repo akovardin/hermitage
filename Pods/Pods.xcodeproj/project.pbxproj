@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1107AAF513167A37729FFB92FA387359 /* Pods-RadioHermitage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 153AC3F377C84E64889C9EF0A67962BC /* Pods-RadioHermitage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B09D40C7A756CC40C3C5796D7DC506 /* Pods-RadioHermitageTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E09A12EA362C13B463FF1C3D23BFBB6B /* Pods-RadioHermitageTests-dummy.m */; };
+		550AB9DB7968523E4690A4F66B39907A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		96E44998C069FB91F76CC4408042341D /* Pods-RadioHermitageTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B201F9EA2E73DF9C9CADE0F84BF31E /* Pods-RadioHermitageTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ECFC57B94064D1E8B89C6ABB0643104 /* Pods-RadioHermitage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AA31C90BA09043970A0E8C3D1C3A28 /* Pods-RadioHermitage-dummy.m */; };
+		A9829CD47D89998A0C794D374E8C8ED2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B9A1308A7A72538A453F6F9B30E5F99B /* Pods-RadioHermitageUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5112DD335CC9E37E93104FFF190EF3CF /* Pods-RadioHermitageUITests-dummy.m */; };
+		DBD2CEA53C4D1EDB21036169963093E0 /* Pods-RadioHermitageUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B84218932ED8EAA008B77B3756FD6A /* Pods-RadioHermitageUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA86F45491D1E14B04B7E07985078E0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21FBB1A2D27B9E5E7B17587CA55CFB81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A2242A5F9147E1BBCC3285946F1755E;
+			remoteInfo = "Pods-RadioHermitage";
+		};
+		5B4310986A470FC0226F1264D5E9A5B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A2242A5F9147E1BBCC3285946F1755E;
+			remoteInfo = "Pods-RadioHermitage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05B5DB27228325757FAFCBDA42EAC851 /* Pods-RadioHermitage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RadioHermitage.debug.xcconfig"; sourceTree = "<group>"; };
+		0D423687CC5A63A460087460FFABEF74 /* Pods-RadioHermitageUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RadioHermitageUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		153AC3F377C84E64889C9EF0A67962BC /* Pods-RadioHermitage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RadioHermitage-umbrella.h"; sourceTree = "<group>"; };
+		1561F559D77D1A4E2CD1FB2AEE173B03 /* Pods-RadioHermitage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RadioHermitage.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		40D2C27E481E8A7B3806151FAD75CFA1 /* Pods-RadioHermitageTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RadioHermitageTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46725FACB1B8F9120E70787342AD8208 /* Pods_RadioHermitage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RadioHermitage.framework; path = "Pods-RadioHermitage.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5112DD335CC9E37E93104FFF190EF3CF /* Pods-RadioHermitageUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RadioHermitageUITests-dummy.m"; sourceTree = "<group>"; };
+		5ABAFE543B68C8B2E07F4D6F70BF9FD0 /* Pods_RadioHermitageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RadioHermitageTests.framework; path = "Pods-RadioHermitageTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B624D61A9C4D3C68A107810446659B6 /* Pods-RadioHermitageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RadioHermitageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B6E58AE839BF7F3DFDA37338D5FA6AC /* Pods-RadioHermitage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RadioHermitage.release.xcconfig"; sourceTree = "<group>"; };
+		5C43C8CA096B25DB49B602603ABE2C29 /* Pods-RadioHermitageUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RadioHermitageUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		605E5096D11D2BC2ED9D0DF8B71671D2 /* Pods-RadioHermitageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RadioHermitageTests.release.xcconfig"; sourceTree = "<group>"; };
+		67477D24A0316ABE5FA24590D1E37992 /* Pods-RadioHermitageTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RadioHermitageTests.modulemap"; sourceTree = "<group>"; };
+		68B84218932ED8EAA008B77B3756FD6A /* Pods-RadioHermitageUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RadioHermitageUITests-umbrella.h"; sourceTree = "<group>"; };
+		6F949B08512058A65C950DDEDC243311 /* Pods-RadioHermitageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RadioHermitageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		79AA31C90BA09043970A0E8C3D1C3A28 /* Pods-RadioHermitage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RadioHermitage-dummy.m"; sourceTree = "<group>"; };
+		7B1C1B139BE6A5A031F688A7DD9DFD3D /* Pods-RadioHermitage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RadioHermitage-acknowledgements.plist"; sourceTree = "<group>"; };
+		81C31012BC2F95A822367203C0EC745C /* Pods-RadioHermitageTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RadioHermitageTests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B43FDC6067484FB2F8382D54A42423D5 /* Pods-RadioHermitageUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RadioHermitageUITests.modulemap"; sourceTree = "<group>"; };
+		B6E38B63173CEA69DE1440C3DBC3F21D /* Pods-RadioHermitage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RadioHermitage-Info.plist"; sourceTree = "<group>"; };
+		BB945DD2052095E7C3030D054C3D64F7 /* Pods_RadioHermitageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RadioHermitageUITests.framework; path = "Pods-RadioHermitageUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC69AE2B8DC5FF2CBCAE4B892438E221 /* Pods-RadioHermitageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RadioHermitageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9B201F9EA2E73DF9C9CADE0F84BF31E /* Pods-RadioHermitageTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RadioHermitageTests-umbrella.h"; sourceTree = "<group>"; };
+		E09A12EA362C13B463FF1C3D23BFBB6B /* Pods-RadioHermitageTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RadioHermitageTests-dummy.m"; sourceTree = "<group>"; };
+		EDBB5F8758647D2B591B6D8BEF455115 /* Pods-RadioHermitageUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RadioHermitageUITests-Info.plist"; sourceTree = "<group>"; };
+		EDE195018707106C2A1E3E134E7ABA1C /* Pods-RadioHermitageTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RadioHermitageTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F432A6616F2277CBC7ECF68E6F3E65A2 /* Pods-RadioHermitage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RadioHermitage-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32DAC14FA9AA242F578ACF26BF324275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550AB9DB7968523E4690A4F66B39907A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEAAB6F9FC0DDD0814D434045BB0663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9829CD47D89998A0C794D374E8C8ED2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84BFCE52293363D5FB0B738F823CABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA86F45491D1E14B04B7E07985078E0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B005AA13A1FDF6F87800D8239DD121E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE72D269C7E692A2943797258DEDD4C6 /* Pods-RadioHermitage */,
+				96D57DCBC7C2A9B937D66C94EAE65A34 /* Pods-RadioHermitageTests */,
+				70DFFBC1C51BE14472E694C7067CA051 /* Pods-RadioHermitageUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		70DFFBC1C51BE14472E694C7067CA051 /* Pods-RadioHermitageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B43FDC6067484FB2F8382D54A42423D5 /* Pods-RadioHermitageUITests.modulemap */,
+				0D423687CC5A63A460087460FFABEF74 /* Pods-RadioHermitageUITests-acknowledgements.markdown */,
+				5C43C8CA096B25DB49B602603ABE2C29 /* Pods-RadioHermitageUITests-acknowledgements.plist */,
+				5112DD335CC9E37E93104FFF190EF3CF /* Pods-RadioHermitageUITests-dummy.m */,
+				EDBB5F8758647D2B591B6D8BEF455115 /* Pods-RadioHermitageUITests-Info.plist */,
+				68B84218932ED8EAA008B77B3756FD6A /* Pods-RadioHermitageUITests-umbrella.h */,
+				6F949B08512058A65C950DDEDC243311 /* Pods-RadioHermitageUITests.debug.xcconfig */,
+				5B624D61A9C4D3C68A107810446659B6 /* Pods-RadioHermitageUITests.release.xcconfig */,
+			);
+			name = "Pods-RadioHermitageUITests";
+			path = "Target Support Files/Pods-RadioHermitageUITests";
+			sourceTree = "<group>";
+		};
+		96D57DCBC7C2A9B937D66C94EAE65A34 /* Pods-RadioHermitageTests */ = {
+			isa = PBXGroup;
+			children = (
+				67477D24A0316ABE5FA24590D1E37992 /* Pods-RadioHermitageTests.modulemap */,
+				40D2C27E481E8A7B3806151FAD75CFA1 /* Pods-RadioHermitageTests-acknowledgements.markdown */,
+				EDE195018707106C2A1E3E134E7ABA1C /* Pods-RadioHermitageTests-acknowledgements.plist */,
+				E09A12EA362C13B463FF1C3D23BFBB6B /* Pods-RadioHermitageTests-dummy.m */,
+				81C31012BC2F95A822367203C0EC745C /* Pods-RadioHermitageTests-Info.plist */,
+				D9B201F9EA2E73DF9C9CADE0F84BF31E /* Pods-RadioHermitageTests-umbrella.h */,
+				BC69AE2B8DC5FF2CBCAE4B892438E221 /* Pods-RadioHermitageTests.debug.xcconfig */,
+				605E5096D11D2BC2ED9D0DF8B71671D2 /* Pods-RadioHermitageTests.release.xcconfig */,
+			);
+			name = "Pods-RadioHermitageTests";
+			path = "Target Support Files/Pods-RadioHermitageTests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE72D269C7E692A2943797258DEDD4C6 /* Pods-RadioHermitage */ = {
+			isa = PBXGroup;
+			children = (
+				1561F559D77D1A4E2CD1FB2AEE173B03 /* Pods-RadioHermitage.modulemap */,
+				F432A6616F2277CBC7ECF68E6F3E65A2 /* Pods-RadioHermitage-acknowledgements.markdown */,
+				7B1C1B139BE6A5A031F688A7DD9DFD3D /* Pods-RadioHermitage-acknowledgements.plist */,
+				79AA31C90BA09043970A0E8C3D1C3A28 /* Pods-RadioHermitage-dummy.m */,
+				B6E38B63173CEA69DE1440C3DBC3F21D /* Pods-RadioHermitage-Info.plist */,
+				153AC3F377C84E64889C9EF0A67962BC /* Pods-RadioHermitage-umbrella.h */,
+				05B5DB27228325757FAFCBDA42EAC851 /* Pods-RadioHermitage.debug.xcconfig */,
+				5B6E58AE839BF7F3DFDA37338D5FA6AC /* Pods-RadioHermitage.release.xcconfig */,
+			);
+			name = "Pods-RadioHermitage";
+			path = "Target Support Files/Pods-RadioHermitage";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D5256D78D9755A7C5F9B73C8E4BAA74D /* Products */,
+				1B005AA13A1FDF6F87800D8239DD121E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5256D78D9755A7C5F9B73C8E4BAA74D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46725FACB1B8F9120E70787342AD8208 /* Pods_RadioHermitage.framework */,
+				5ABAFE543B68C8B2E07F4D6F70BF9FD0 /* Pods_RadioHermitageTests.framework */,
+				BB945DD2052095E7C3030D054C3D64F7 /* Pods_RadioHermitageUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		046E8EFAA006A70DC0022A932343233D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1107AAF513167A37729FFB92FA387359 /* Pods-RadioHermitage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F57C1F2394BF7F9752A4F785869E58A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD2CEA53C4D1EDB21036169963093E0 /* Pods-RadioHermitageUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C246CC2CD12D1150A32714C7AFF3516D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E44998C069FB91F76CC4408042341D /* Pods-RadioHermitageTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5A2242A5F9147E1BBCC3285946F1755E /* Pods-RadioHermitage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB747A21C15AE5FAB8BCAB4D5F4907A1 /* Build configuration list for PBXNativeTarget "Pods-RadioHermitage" */;
+			buildPhases = (
+				046E8EFAA006A70DC0022A932343233D /* Headers */,
+				35CC9F00A15140F085A0AB45EB63B177 /* Sources */,
+				D84BFCE52293363D5FB0B738F823CABD /* Frameworks */,
+				3E631EDF07E05BBAC2B9A4FA25B288FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RadioHermitage";
+			productName = "Pods-RadioHermitage";
+			productReference = 46725FACB1B8F9120E70787342AD8208 /* Pods_RadioHermitage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9FA36CDBEA31908F2A42E036290C4FE7 /* Pods-RadioHermitageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C92D0386884D971D473537551BECCAA9 /* Build configuration list for PBXNativeTarget "Pods-RadioHermitageUITests" */;
+			buildPhases = (
+				0F57C1F2394BF7F9752A4F785869E58A /* Headers */,
+				CA000196C64EED375A043C5CF19F74A4 /* Sources */,
+				8DEAAB6F9FC0DDD0814D434045BB0663 /* Frameworks */,
+				1AD5708881CF88B4A0853A3BCBDC17D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				962BD83F151564503EB0E1C6977E84DC /* PBXTargetDependency */,
+			);
+			name = "Pods-RadioHermitageUITests";
+			productName = "Pods-RadioHermitageUITests";
+			productReference = BB945DD2052095E7C3030D054C3D64F7 /* Pods_RadioHermitageUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9E612B40080A2291652852E67FA03A0 /* Pods-RadioHermitageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4325E0BBED495B438DC54C60BFDB3483 /* Build configuration list for PBXNativeTarget "Pods-RadioHermitageTests" */;
+			buildPhases = (
+				C246CC2CD12D1150A32714C7AFF3516D /* Headers */,
+				6E9C02C06F794AD4265E9227FFAEFD11 /* Sources */,
+				32DAC14FA9AA242F578ACF26BF324275 /* Frameworks */,
+				F61EA3BB5BBED397E57FBE799153FB7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78BE8B197DE4937349FB184A6D21C168 /* PBXTargetDependency */,
+			);
+			name = "Pods-RadioHermitageTests";
+			productName = "Pods-RadioHermitageTests";
+			productReference = 5ABAFE543B68C8B2E07F4D6F70BF9FD0 /* Pods_RadioHermitageTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D5256D78D9755A7C5F9B73C8E4BAA74D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A2242A5F9147E1BBCC3285946F1755E /* Pods-RadioHermitage */,
+				F9E612B40080A2291652852E67FA03A0 /* Pods-RadioHermitageTests */,
+				9FA36CDBEA31908F2A42E036290C4FE7 /* Pods-RadioHermitageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AD5708881CF88B4A0853A3BCBDC17D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E631EDF07E05BBAC2B9A4FA25B288FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61EA3BB5BBED397E57FBE799153FB7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35CC9F00A15140F085A0AB45EB63B177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECFC57B94064D1E8B89C6ABB0643104 /* Pods-RadioHermitage-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9C02C06F794AD4265E9227FFAEFD11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B09D40C7A756CC40C3C5796D7DC506 /* Pods-RadioHermitageTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA000196C64EED375A043C5CF19F74A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A1308A7A72538A453F6F9B30E5F99B /* Pods-RadioHermitageUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78BE8B197DE4937349FB184A6D21C168 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RadioHermitage";
+			target = 5A2242A5F9147E1BBCC3285946F1755E /* Pods-RadioHermitage */;
+			targetProxy = 5B4310986A470FC0226F1264D5E9A5B7 /* PBXContainerItemProxy */;
+		};
+		962BD83F151564503EB0E1C6977E84DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RadioHermitage";
+			target = 5A2242A5F9147E1BBCC3285946F1755E /* Pods-RadioHermitage */;
+			targetProxy = 21FBB1A2D27B9E5E7B17587CA55CFB81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		354360D4C0BE42840D4E94D8A81F459F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B6E58AE839BF7F3DFDA37338D5FA6AC /* Pods-RadioHermitage.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RadioHermitage/Pods-RadioHermitage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RadioHermitage/Pods-RadioHermitage.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		580DEA1EFB91E1766BB88BC116ACBA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F949B08512058A65C950DDEDC243311 /* Pods-RadioHermitageUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RadioHermitageUITests/Pods-RadioHermitageUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RadioHermitageUITests/Pods-RadioHermitageUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F292799E4F4998BF209E068177E79DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B624D61A9C4D3C68A107810446659B6 /* Pods-RadioHermitageUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RadioHermitageUITests/Pods-RadioHermitageUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RadioHermitageUITests/Pods-RadioHermitageUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8534C73DCE7A0608E131566A50CAC276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B5DB27228325757FAFCBDA42EAC851 /* Pods-RadioHermitage.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RadioHermitage/Pods-RadioHermitage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RadioHermitage/Pods-RadioHermitage.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BA650DE981BE69F1485BEB81A1B08FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC69AE2B8DC5FF2CBCAE4B892438E221 /* Pods-RadioHermitageTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RadioHermitageTests/Pods-RadioHermitageTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RadioHermitageTests/Pods-RadioHermitageTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA3F8F1E143E1C520CCE9B875E6F5FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 605E5096D11D2BC2ED9D0DF8B71671D2 /* Pods-RadioHermitageTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RadioHermitageTests/Pods-RadioHermitageTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RadioHermitageTests/Pods-RadioHermitageTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4325E0BBED495B438DC54C60BFDB3483 /* Build configuration list for PBXNativeTarget "Pods-RadioHermitageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA650DE981BE69F1485BEB81A1B08FEC /* Debug */,
+				EA3F8F1E143E1C520CCE9B875E6F5FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C92D0386884D971D473537551BECCAA9 /* Build configuration list for PBXNativeTarget "Pods-RadioHermitageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580DEA1EFB91E1766BB88BC116ACBA2E /* Debug */,
+				6F292799E4F4998BF209E068177E79DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB747A21C15AE5FAB8BCAB4D5F4907A1 /* Build configuration list for PBXNativeTarget "Pods-RadioHermitage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8534C73DCE7A0608E131566A50CAC276 /* Debug */,
+				354360D4C0BE42840D4E94D8A81F459F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

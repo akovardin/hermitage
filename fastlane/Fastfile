@@ -20,7 +20,7 @@ platform :ios do
   lane :beta do
     increment_build_number(
       build_number: latest_testflight_build_number + 1,
-      xcodeproj: "RadioHermitage.xcodeproj"
+      xcodeproj: "RadioHermitage.xcworkspace"
     )
 
     build_app(scheme: "RadioHermitage")
@@ -31,6 +31,6 @@ platform :ios do
 end
 
 lane :tests do
-  run_tests(workspace: "RadioHermitage.xcodeproj",
+  run_tests(workspace: "RadioHermitage.xcworkspace",
             devices: ["iPhone 11"])
 end

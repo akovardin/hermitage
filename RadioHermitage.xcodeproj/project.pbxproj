@@ -24,7 +24,10 @@
 		58C7AC916F2E953F325F135B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C7AAF49036D03236771601 /* MainViewController.swift */; };
 		58C7ADA59A5270DFC7344924 /* MainInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C7A73731CF503511042299 /* MainInteractorTests.swift */; };
 		58C7AF596FCDD24878F5D62C /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 58C7AB90283FDFA5D35F1A59 /* Fastfile */; };
+		69609E8B3BE1CA4997DC9989 /* Pods_RadioHermitageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FEB43C40EF2875A9BE5D1D /* Pods_RadioHermitageUITests.framework */; };
 		AC64C14E241D8E560092DB21 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC64C150241D8E560092DB21 /* Main.strings */; };
+		E234A4ACD45FCDE8246E5AD4 /* Pods_RadioHermitage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1FBDB05DFD11B66C015204 /* Pods_RadioHermitage.framework */; };
+		E916FB9804A95884B68060D3 /* Pods_RadioHermitageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F339E0D13CD7A9A3FADB84 /* Pods_RadioHermitageTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A1FBDB05DFD11B66C015204 /* Pods_RadioHermitage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioHermitage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4331DC775D5645B20A7AED12 /* Pods-RadioHermitageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioHermitageUITests.release.xcconfig"; path = "Target Support Files/Pods-RadioHermitageUITests/Pods-RadioHermitageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		44A057E1C41D028DAD17D4AB /* Pods-RadioHermitageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioHermitageTests.release.xcconfig"; path = "Target Support Files/Pods-RadioHermitageTests/Pods-RadioHermitageTests.release.xcconfig"; sourceTree = "<group>"; };
 		58C7A06B7C52179ACAED6A09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		58C7A0922CC8E5F741A515F1 /* MainWorkerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWorkerTests.swift; sourceTree = "<group>"; };
 		58C7A1724B8C2B8C1E93E80E /* RadioHermitageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioHermitageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,8 +74,14 @@
 		58C7ACC66E559924E66A510B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58C7ACDD71B6DBBFEF786DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		58C7AFFFD0DE6A92092219E5 /* RadioHermitageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioHermitageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F339E0D13CD7A9A3FADB84 /* Pods_RadioHermitageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioHermitageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6742422003D47EF0E41C8477 /* Pods-RadioHermitage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioHermitage.release.xcconfig"; path = "Target Support Files/Pods-RadioHermitage/Pods-RadioHermitage.release.xcconfig"; sourceTree = "<group>"; };
+		743E086D2BD6EF723329110C /* Pods-RadioHermitageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioHermitageTests.debug.xcconfig"; path = "Target Support Files/Pods-RadioHermitageTests/Pods-RadioHermitageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CE4CB5497CE198933D912F7 /* Pods-RadioHermitage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioHermitage.debug.xcconfig"; path = "Target Support Files/Pods-RadioHermitage/Pods-RadioHermitage.debug.xcconfig"; sourceTree = "<group>"; };
 		AC64C151241D8F310092DB21 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		AC64C152241D8F310092DB21 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		B5CA54776EE278DEFB4517D8 /* Pods-RadioHermitageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioHermitageUITests.debug.xcconfig"; path = "Target Support Files/Pods-RadioHermitageUITests/Pods-RadioHermitageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7FEB43C40EF2875A9BE5D1D /* Pods_RadioHermitageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioHermitageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E916FB9804A95884B68060D3 /* Pods_RadioHermitageTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E234A4ACD45FCDE8246E5AD4 /* Pods_RadioHermitage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69609E8B3BE1CA4997DC9989 /* Pods_RadioHermitageUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +219,32 @@
 				58C7A98B8A4F39E2BE0384F1 /* RadioHermitageTests */,
 				58C7A5EB8B9B92DF59937FAA /* RadioHermitageUITests */,
 				58C7A8C38FD6557E925922BF /* fastlane */,
+				D03B74610398B34365EAB143 /* Pods */,
+				F170A16BB8E17870D5668199 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		D03B74610398B34365EAB143 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CE4CB5497CE198933D912F7 /* Pods-RadioHermitage.debug.xcconfig */,
+				6742422003D47EF0E41C8477 /* Pods-RadioHermitage.release.xcconfig */,
+				743E086D2BD6EF723329110C /* Pods-RadioHermitageTests.debug.xcconfig */,
+				44A057E1C41D028DAD17D4AB /* Pods-RadioHermitageTests.release.xcconfig */,
+				B5CA54776EE278DEFB4517D8 /* Pods-RadioHermitageUITests.debug.xcconfig */,
+				4331DC775D5645B20A7AED12 /* Pods-RadioHermitageUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F170A16BB8E17870D5668199 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A1FBDB05DFD11B66C015204 /* Pods_RadioHermitage.framework */,
+				58F339E0D13CD7A9A3FADB84 /* Pods_RadioHermitageTests.framework */,
+				B7FEB43C40EF2875A9BE5D1D /* Pods_RadioHermitageUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58C7A4ACB43D65031A59E0B9 /* Build configuration list for PBXNativeTarget "RadioHermitageUITests" */;
 			buildPhases = (
+				A9E7CDD174108DE1BE200AB8 /* [CP] Check Pods Manifest.lock */,
 				58C7A025AAADAAD2B3DABA65 /* Sources */,
 				58C7AF1CED2E62B5EB9BE5B9 /* Frameworks */,
 				58C7A47ADC7808303010A65F /* Resources */,
@@ -232,6 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58C7ABEF309E99DE54CD01B6 /* Build configuration list for PBXNativeTarget "RadioHermitageTests" */;
 			buildPhases = (
+				92E7B9D938F4DCC45B136D67 /* [CP] Check Pods Manifest.lock */,
 				58C7AFFC4FF8120773AFC0D3 /* Sources */,
 				58C7A6BACA9205164812AD72 /* Frameworks */,
 				58C7AD8F1F8145D75A3829DB /* Resources */,
@@ -250,6 +292,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58C7AA27E5DB8692D3D9399A /* Build configuration list for PBXNativeTarget "RadioHermitage" */;
 			buildPhases = (
+				AF1380332E03385ECD50945F /* [CP] Check Pods Manifest.lock */,
 				58C7A27532C755AFC490D62B /* Sources */,
 				58C7A7A2CBADF8D9500ABE48 /* Frameworks */,
 				58C7A0DBC1FD151357ACF525 /* Resources */,
@@ -271,6 +314,12 @@
 			attributes = {
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
+					58C7A6EF32CA5B02B0AD0D4D = {
+						TestTargetID = 58C7AE29D10E8E8CF08770C5;
+					};
+					58C7AD272EFFD962C15C1669 = {
+						TestTargetID = 58C7AE29D10E8E8CF08770C5;
+					};
 					58C7AE29D10E8E8CF08770C5 = {
 						DevelopmentTeam = 25K6PDW2HY;
 					};
@@ -326,6 +375,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92E7B9D938F4DCC45B136D67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RadioHermitageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9E7CDD174108DE1BE200AB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RadioHermitageUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF1380332E03385ECD50945F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RadioHermitage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58C7A025AAADAAD2B3DABA65 /* Sources */ = {
@@ -400,6 +518,7 @@
 /* Begin XCBuildConfiguration section */
 		58C7A17C54F93C0F30DE8E11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CE4CB5497CE198933D912F7 /* Pods-RadioHermitage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 25K6PDW2HY;
@@ -414,25 +533,28 @@
 		};
 		58C7A214E8A7C7591C6B6FB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44A057E1C41D028DAD17D4AB /* Pods-RadioHermitageTests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RadioHermitage.app/RadioHermitage";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RadioHermitageTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.4gophers.RadioHermitageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioHermitage.app/RadioHermitage";
 			};
 			name = Release;
 		};
 		58C7A3F9A248512607379C86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4331DC775D5645B20A7AED12 /* Pods-RadioHermitageUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RadioHermitageUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.4gophers.RadioHermitageUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = RadioHermitage;
@@ -441,6 +563,7 @@
 		};
 		58C7A58E52CFCE23C9214059 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6742422003D47EF0E41C8477 /* Pods-RadioHermitage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 25K6PDW2HY;
@@ -508,11 +631,13 @@
 		};
 		58C7AA4BA6E064DA96B24D84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5CA54776EE278DEFB4517D8 /* Pods-RadioHermitageUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RadioHermitageUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.4gophers.RadioHermitageUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = RadioHermitage;
@@ -521,15 +646,16 @@
 		};
 		58C7ABCB0F601615E81FB3AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 743E086D2BD6EF723329110C /* Pods-RadioHermitageTests.debug.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RadioHermitage.app/RadioHermitage";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RadioHermitageTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.4gophers.RadioHermitageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioHermitage.app/RadioHermitage";
 			};
 			name = Debug;
 		};
