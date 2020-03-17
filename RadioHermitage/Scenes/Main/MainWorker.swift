@@ -12,13 +12,16 @@
 
 import UIKit
 import AVFoundation
+import MediaPlayer
 
 protocol MainServiceLogic {
-    func play()
+    func play() -> String
     func stop()
 }
 
 class MainService: MainServiceLogic {
+    var isPlaying = false
+
     var player: AVPlayer = {
         let url = URL(string: "http://91.190.127.185:8000/live_test")
         let player = AVPlayer(url: url!)
@@ -26,11 +29,61 @@ class MainService: MainServiceLogic {
         return player
     }()
 
-    func play() {
+    init() {
+        setupRemoteTransportControls()
+    }
+
+    func setupRemoteTransportControls() {
+        // Get the shared MPRemoteCommandCenter
+        let commandCenter = MPRemoteCommandCenter.shared()
+
+        // Add handler for Play Command
+        commandCenter.playCommand.addTarget { [unowned self] event in
+            if !self.isPlaying {
+                self.play()
+                return .success
+            }
+            return .commandFailed
+        }
+
+        // Add handler for Pause Command
+        commandCenter.pauseCommand.addTarget { [unowned self] event in
+            if self.isPlaying  {
+                self.stop()
+                return .success
+            }
+            return .commandFailed
+        }
+    }
+
+    func setupNowPlaying(image: String) {
+        // Define Now Playing Info
+        var info = [String : Any]()
+        info[MPMediaItemPropertyTitle] = "Радио Эрмитаж 90,1 FM"
+
+        if let image = UIImage(named: image) {
+            info[MPMediaItemPropertyArtwork] =
+                    MPMediaItemArtwork(boundsSize: image.size) { size in
+                        return image
+                    }
+        }
+
+        // Set the metadata
+        MPNowPlayingInfoCenter.default().nowPlayingInfo = info
+    }
+
+    func play() -> String {
+        isPlaying = true
         player.play()
+
+        let image = "radio\(Int.random(in: 1..<6))"
+        setupNowPlaying(image: image)
+
+        return image
     }
 
     func stop() {
+        isPlaying = false
         player.pause()
     }
 }

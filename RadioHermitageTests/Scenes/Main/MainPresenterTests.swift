@@ -43,7 +43,7 @@ class MainPresenterTests: XCTestCase {
             displayDataCalled = true
 
             switch viewModel {
-            case .displayPlay:
+            case .displayPlay(let image):
                 displayPlayCalled = true
             case .displayStop:
                 displayStopCalled = true
@@ -59,7 +59,7 @@ class MainPresenterTests: XCTestCase {
         presenter.viewController = controller
 
         // When
-        presenter.presentData(response: .presentPlay)
+        presenter.presentData(response: .presentPlay(image: "example"))
 
         // Then
         XCTAssertTrue(controller.displayDataCalled)

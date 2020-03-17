@@ -64,7 +64,7 @@ class MainViewControllerTests: XCTestCase {
 
         // When
         loadView()
-        controller.displayData(viewModel: .displayPlay)
+        controller.displayData(viewModel: .displayPlay(image: "example"))
 
         // Then
         XCTAssertEqual(controller.button.title(for: .normal), title)

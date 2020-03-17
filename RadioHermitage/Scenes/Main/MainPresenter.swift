@@ -20,8 +20,8 @@ class MainPresenter: MainPresentationLogic {
         switch response {
         case .presentStop:
             viewController?.displayData(viewModel: .displayStop)
-        case .presentPlay:
-            viewController?.displayData(viewModel: .displayPlay)
+        case .presentPlay(let image):
+            viewController?.displayData(viewModel: .displayPlay(image: image))
         }
     }
 

@@ -44,7 +44,7 @@ class MainInteractorTests: XCTestCase {
             presentDataCalled = true
 
             switch response {
-            case .presentPlay:
+            case .presentPlay(let image):
                 presentPlayCalled = true
             case .presentStop:
                 presentStopCalled = true

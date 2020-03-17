@@ -32,9 +32,9 @@ class MainInteractor: MainBusinessLogic {
                 played = false
                 presenter?.presentData(response: .presentStop)
             } else {
-                service?.play()
+                let image = service?.play()
                 played = true
-                presenter?.presentData(response: .presentPlay)
+                presenter?.presentData(response: .presentPlay(image: image ?? ""))
             }
         }
     }

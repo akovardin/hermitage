@@ -39,6 +39,13 @@ class MainViewController: UIViewController, MainDisplayLogic {
         return button
     }()
 
+    let image: UIImageView = {
+        let image = UIImageView()
+        image.translatesAutoresizingMaskIntoConstraints = false
+
+        return image
+    }()
+
     // MARK: Setup
 
     private func setup() {
@@ -65,10 +72,13 @@ class MainViewController: UIViewController, MainDisplayLogic {
 
     func displayData(viewModel: Main.Model.ViewModel.ViewModelData) {
         switch viewModel {
-        case .displayPlay:
+        case .displayPlay(let image):
             button.setTitle(NSLocalizedString("Stop", tableName: "Main", comment: "main scene"), for: .normal)
+            print(image)
+            self.image.image = UIImage(named: image)
         case .displayStop:
             button.setTitle(NSLocalizedString("Play", tableName: "Main", comment: "main scene"), for: .normal)
+            self.image.image = nil
         }
     }
 
@@ -76,10 +86,19 @@ class MainViewController: UIViewController, MainDisplayLogic {
         view.addSubview(button)
 
         NSLayoutConstraint.activate([
-            button.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            button.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -80),
             button.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             button.widthAnchor.constraint(equalToConstant: 200),
             button.heightAnchor.constraint(equalToConstant: 60),
+        ])
+
+        view.addSubview(image)
+
+        NSLayoutConstraint.activate([
+            image.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 100),
+            image.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant:  50),
+            image.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant:  -50),
+            image.heightAnchor.constraint(equalTo: image.widthAnchor),
         ])
     }
 

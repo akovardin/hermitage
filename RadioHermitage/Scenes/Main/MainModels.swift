@@ -19,14 +19,14 @@ enum Main {
 
         struct Response {
             enum ResponseType {
-                case presentPlay
+                case presentPlay(image: String)
                 case presentStop
             }
         }
 
         struct ViewModel {
             enum ViewModelData {
-                case displayPlay
+                case displayPlay(image: String)
                 case displayStop
             }
         }
