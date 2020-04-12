@@ -26,6 +26,8 @@
 		58C7AF596FCDD24878F5D62C /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 58C7AB90283FDFA5D35F1A59 /* Fastfile */; };
 		69609E8B3BE1CA4997DC9989 /* Pods_RadioHermitageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FEB43C40EF2875A9BE5D1D /* Pods_RadioHermitageUITests.framework */; };
 		AC64C14E241D8E560092DB21 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC64C150241D8E560092DB21 /* Main.strings */; };
+		C8BE2DB624432A7D007037AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8BE2DB524432A7D007037AD /* GoogleService-Info.plist */; };
+		C8BE2DB924432DC9007037AD /* GTM-K7FT84B.json in Resources */ = {isa = PBXBuildFile; fileRef = C8BE2DB824432DC9007037AD /* GTM-K7FT84B.json */; };
 		E234A4ACD45FCDE8246E5AD4 /* Pods_RadioHermitage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1FBDB05DFD11B66C015204 /* Pods_RadioHermitage.framework */; };
 		E916FB9804A95884B68060D3 /* Pods_RadioHermitageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F339E0D13CD7A9A3FADB84 /* Pods_RadioHermitageTests.framework */; };
 /* End PBXBuildFile section */
@@ -82,6 +84,8 @@
 		AC64C152241D8F310092DB21 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		B5CA54776EE278DEFB4517D8 /* Pods-RadioHermitageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioHermitageUITests.debug.xcconfig"; path = "Target Support Files/Pods-RadioHermitageUITests/Pods-RadioHermitageUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7FEB43C40EF2875A9BE5D1D /* Pods_RadioHermitageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioHermitageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8BE2DB524432A7D007037AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C8BE2DB824432DC9007037AD /* GTM-K7FT84B.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "GTM-K7FT84B.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,7 @@
 		58C7A59FC8CAFACB0C5FE3FD /* RadioHermitage */ = {
 			isa = PBXGroup;
 			children = (
+				C8BE2DB524432A7D007037AD /* GoogleService-Info.plist */,
 				58C7A305999383CFD27249F6 /* Info.plist */,
 				58C7AC92C188E5A86028C71A /* Assets.xcassets */,
 				58C7AF7160F568B3176D7517 /* LaunchScreen.storyboard */,
@@ -214,6 +219,7 @@
 		58C7AC50D47685E345BDA2FE = {
 			isa = PBXGroup;
 			children = (
+				C8BE2DB724432CAA007037AD /* container */,
 				58C7A61F0D4AF99407D85F46 /* Products */,
 				58C7A59FC8CAFACB0C5FE3FD /* RadioHermitage */,
 				58C7A98B8A4F39E2BE0384F1 /* RadioHermitageTests */,
@@ -222,6 +228,14 @@
 				D03B74610398B34365EAB143 /* Pods */,
 				F170A16BB8E17870D5668199 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		C8BE2DB724432CAA007037AD /* container */ = {
+			isa = PBXGroup;
+			children = (
+				C8BE2DB824432DC9007037AD /* GTM-K7FT84B.json */,
+			);
+			path = container;
 			sourceTree = "<group>";
 		};
 		D03B74610398B34365EAB143 /* Pods */ = {
@@ -296,6 +310,8 @@
 				58C7A27532C755AFC490D62B /* Sources */,
 				58C7A7A2CBADF8D9500ABE48 /* Frameworks */,
 				58C7A0DBC1FD151357ACF525 /* Resources */,
+				E72721E8C79D2133AE4C996B /* [CP] Embed Pods Frameworks */,
+				929BB6CF438B76ECB46AE14E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -353,10 +369,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				58C7AB917209FADFDA9743ED /* Assets.xcassets in Resources */,
+				C8BE2DB924432DC9007037AD /* GTM-K7FT84B.json in Resources */,
 				AC64C14E241D8E560092DB21 /* Main.strings in Resources */,
 				58C7A91B957B41E38CB5A55E /* LaunchScreen.storyboard in Resources */,
 				58C7A6AE8F9D599D328D1A30 /* Appfile in Resources */,
 				58C7AF596FCDD24878F5D62C /* Fastfile in Resources */,
+				C8BE2DB624432A7D007037AD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +395,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		929BB6CF438B76ECB46AE14E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RadioHermitage/Pods-RadioHermitage-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleTagManager/TagManagerResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TagManagerResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RadioHermitage/Pods-RadioHermitage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		92E7B9D938F4DCC45B136D67 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -441,6 +477,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E72721E8C79D2133AE4C996B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RadioHermitage/Pods-RadioHermitage-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RadioHermitage/Pods-RadioHermitage-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

@@ -7,6 +7,9 @@ target 'RadioHermitage' do
 
   # Pods for RadioHermitage
 
+  pod 'GoogleTagManager'
+  pod 'Firebase/Analytics'
+
   target 'RadioHermitageTests' do
     inherit! :search_paths
     # Pods for testing
